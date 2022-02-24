@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 openAboutMe();
             }
         });
+
+        System.out.println("hihi");
     }
 
     public void openAboutMe() {
