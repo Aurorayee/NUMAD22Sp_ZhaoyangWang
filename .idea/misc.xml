@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23355166670204938" />
+        <entry key="app/src/main/res/layout/about_me_button.xml" value="0.21492537313432836" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.32613084581163193" />
+        <entry key="app/src/main/res/layout/clicky_clicky_button.xml" value="0.2055587768554687" />
       </map>
     </option>
   </component>
@@ -13,5 +15,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2055587768554687" />
+      </ProjectState>
+    </option>
   </component>
 </project>

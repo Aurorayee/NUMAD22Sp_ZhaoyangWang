@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openAboutMe() {
-        Intent intent = new Intent(this, Activity.class);
+        Intent intent = new Intent(this, AboutMeButton.class);
         startActivity(intent);
     }
 }
