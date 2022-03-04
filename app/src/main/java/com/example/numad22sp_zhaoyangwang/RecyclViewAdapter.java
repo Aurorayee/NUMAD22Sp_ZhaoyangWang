@@ -65,7 +65,6 @@ public class RecyclViewAdapter extends RecyclerView.Adapter<RecyclViewAdapter.My
                     } catch (Exception e) {
                         System.out.println("Invalid URL");
 
-                        // Snackbar.make(linkCollectorMainPage, "Add Successful, going to turn back to the main page in a second ..", Snackbar.LENGTH_LONG).show();
                     }
 
                 }
