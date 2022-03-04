@@ -2,13 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.numad22sp_zhaoyangwang">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher1"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher1_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD22Sp_ZhaoyangWang">
+        <activity
+            android:name=".LinkCollectorAdd"
+            android:exported="false" />
+        <activity
+            android:name=".LinkCollectorButton"
+            android:exported="false" />
         <activity
             android:name=".ClickyClickyButton"
             android:exported="false" />

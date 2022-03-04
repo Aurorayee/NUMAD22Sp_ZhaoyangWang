@@ -1,6 +1,8 @@
 package com.example.numad22sp_zhaoyangwang;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.numad22sp_zhaoyangwang.databinding.ActivityMainBinding;
 
@@ -15,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button button1; // About Me
     private Button button2; // Clicky Clicky
+    private Button button3; // Link Collector
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        button3 = (Button) findViewById(R.id.LinkCollector);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openLinkCollector();
+            }
+        });
+
     }
 
     public void openAboutMe() {
@@ -49,4 +61,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ClickyClickyButton.class);
         startActivity(intent);
     }
+
+    public void openLinkCollector() {
+        Intent intent = new Intent(this, LinkCollectorButton.class);
+        startActivity(intent);
+    }
+
+
+
 }
