@@ -9,7 +9,8 @@
         <entry key="app/src/main/res/layout/activity_link_collector_add.xml" value="0.45728733228600543" />
         <entry key="app/src/main/res/layout/activity_link_collector_button.xml" value="0.22752990722656258" />
         <entry key="app/src/main/res/layout/activity_link_collector_button2.xml" value="0.14945652173913043" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2055587768554687" />
+        <entry key="app/src/main/res/layout/activity_locator.xml" value="0.23192749023437503" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.32613084581163193" />
         <entry key="app/src/main/res/layout/clicky_clicky_button.xml" value="0.2055587768554687" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.12291666666666666" />
@@ -28,7 +29,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.22752990722656258" />
+        <option name="scale" value="0.23192749023437503" />
       </ProjectState>
     </option>
   </component>

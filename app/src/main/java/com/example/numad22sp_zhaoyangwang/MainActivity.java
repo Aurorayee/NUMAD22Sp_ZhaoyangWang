@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Button button1; // About Me
     private Button button2; // Clicky Clicky
     private Button button3; // Link Collector
+    private Button button4; // Locator
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +51,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        button4 = (Button) findViewById(R.id.Locatorbutton);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openLocator();
+            }
+        });
+
     }
 
     public void openAboutMe() {
@@ -67,6 +76,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openLocator() {
+        Intent intent = new Intent(this, Locator.class);
+        startActivity(intent);
+    }
 
 
 }

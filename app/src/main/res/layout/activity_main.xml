@@ -46,8 +46,16 @@
         android:layout_marginBottom="24dp"
         android:text="linkCollector"
         app:layout_constraintBottom_toTopOf="@id/AboutMe"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintLeft_toLeftOf="@+id/AboutMe" />
+
+    <Button
+        android:id="@+id/Locatorbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Locator"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintRight_toRightOf="@+id/ClickyClicky"
+        app:layout_constraintBottom_toTopOf="@+id/ClickyClicky" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
