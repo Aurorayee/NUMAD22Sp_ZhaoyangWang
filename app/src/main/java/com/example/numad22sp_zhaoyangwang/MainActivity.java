@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private Button button2; // Clicky Clicky
     private Button button3; // Link Collector
     private Button button4; // Locator
+    private Button button5; // WebService
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +60,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        button5 = findViewById(R.id.webServiceButton);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openWebService();
+            }
+        });
+
     }
 
     public void openAboutMe() {
@@ -81,5 +90,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openWebService() {
+        Intent intent = new Intent(this, WebServiceButton.class);
+        startActivity(intent);
+    }
 
 }

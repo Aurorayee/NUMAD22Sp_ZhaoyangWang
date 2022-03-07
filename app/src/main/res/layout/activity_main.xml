@@ -52,10 +52,22 @@
         android:id="@+id/Locatorbutton"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:text="Locator"
         android:layout_marginBottom="24dp"
+        android:text="Locator"
+        app:layout_constraintBottom_toTopOf="@+id/ClickyClicky"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintRight_toRightOf="@+id/ClickyClicky"
-        app:layout_constraintBottom_toTopOf="@+id/ClickyClicky" />
+        app:layout_constraintRight_toRightOf="@+id/ClickyClicky" />
+
+    <Button
+        android:id="@+id/webServiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/Locatorbutton"
+        android:layout_marginBottom="24dp"
+        tools:layout_editor_absoluteY="526dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

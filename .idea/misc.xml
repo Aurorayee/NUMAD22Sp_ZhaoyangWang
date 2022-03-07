@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../.gradle/caches/transforms-3/02e0bd612fca2a22099e175f45d3c7d6/transformed/appcompat-1.4.1/res/layout/support_simple_spinner_dropdown_item.xml" value="0.1480978260869565" />
+        <entry key="app/src/main/res/drawable/currency_spinner.xml" value="0.1175" />
         <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.1" />
         <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.1" />
         <entry key="app/src/main/res/layout/about_me_button.xml" value="0.2055587768554687" />
@@ -10,8 +12,9 @@
         <entry key="app/src/main/res/layout/activity_link_collector_button.xml" value="0.22752990722656258" />
         <entry key="app/src/main/res/layout/activity_link_collector_button2.xml" value="0.14945652173913043" />
         <entry key="app/src/main/res/layout/activity_locator.xml" value="0.23192749023437503" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23192749023437503" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.32613084581163193" />
+        <entry key="app/src/main/res/layout/activity_web_service_button.xml" value="0.1" />
         <entry key="app/src/main/res/layout/clicky_clicky_button.xml" value="0.2055587768554687" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.12291666666666666" />
         <entry key="app/src/main/res/layout/lc_one_line_item.xml" value="0.13690476190476192" />
@@ -29,7 +32,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.23192749023437503" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>
